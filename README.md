@@ -1,17 +1,20 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
-### Date created
-Include the date you created this project and README file.
-
-### Project Title
-Replace the Project Title
+### Version Control in Git
+Date created: 05/26/2025.
 
 ### Description
-Describe what your project is about and what it does
+This is a project developed for Udacity to train in version control. It leverages a previous project: Introduction to Python.
 
-### Files used
-Include the files used
+### Files used 
+
+- `bikeshare.py`
+- `README.md`
+- `.gitignore.txt`
+
+>**Note**: He used as a data source (but these files were not uploaded):
+
+>- `chicago.csv`
+>- `new_york_city.csv`
+>- `washington.csv`
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+The data sources were acquired in [Introduction to Python](https://www.udacity.com/course/introduction-to-python--cd0024) course, by Udacity. The repository, was forked from the model repository for the course of [Introduction to Version Control](https://www.udacity.com/course/introduction-to-version-control--cd0419).
