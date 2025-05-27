@@ -120,7 +120,7 @@ def time_stats(df):
     print(f"The most common day of week: ",df['day'].mode()[0])
     print(f"The most common start hour: ",df['hour'].mode()[0])
     print("\nThis took %.2fms." % ((time.time() - start_time)*1000))
-    print('-'*40)
+    print('-'*50)
 
 
 def station_stats(df):
