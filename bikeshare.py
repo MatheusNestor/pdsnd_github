@@ -111,22 +111,14 @@ def load_data(city, month, day):
 
     return df
 
-
+# The blanks in this function have been erased. 
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
-
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
-
-    # TO DO: display the most common month
     print(f"The most common month: ",df['month'].mode()[0]) 
-
-    # TO DO: display the most common day of week
     print(f"The most common day of week: ",df['day'].mode()[0])
-
-    # TO DO: display the most common start hour
     print(f"The most common start hour: ",df['hour'].mode()[0])
-
     print("\nThis took %.2fms." % ((time.time() - start_time)*1000))
     print('-'*40)
 
