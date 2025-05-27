@@ -200,10 +200,9 @@ def raw_data(df):
         end = end + 10
         aux = input(str('Would you like to see 5 more lines? Enter yes or no.\n')).lower()
         
-        
+# The blanks in this function have been erased.       
 def main():
     while True:
-        
         city, month, day = get_filters()
         df = load_data(city, month, day)
         print(df.columns)
@@ -211,10 +210,9 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-
         raw_data(df)
-        
         restart = input('\nWould you like to restart? Enter yes or no.\n')
+
         if restart.lower() != 'yes':
             break
 
